@@ -1,0 +1,26 @@
+
+body{
+    background-color:#030712;
+}
+
+.navigation{
+    display: flex;
+
+}
+.nav_list{
+    display: flex;
+    justify-content: end;
+    margin-left: 60%;
+    a{
+        gap: 200px;
+    }
+}
+.btn{
+    margin-left: 50px;
+}
+li{
+    margin-left: 15px;
+}
+a{
+    color: #4e4e4e;
+}
