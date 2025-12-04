@@ -1,26 +1,102 @@
+.container{
+    max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
 
-body{
-    background-color:#030712;
+}
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f1a;
+    color: white;
 }
 
-.navigation{
+
+.nav {
     display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
 
+.nav .logo {
+    font-size: 24px;
+    font-weight: bold;
 }
-.nav_list{
+
+.nav ul {
     display: flex;
-    justify-content: end;
-    margin-left: 60%;
-    a{
-        gap: 200px;
-    }
+    gap: 30px;
+    list-style: none;
+    margin-left: 30%;
 }
-.btn{
-    margin-left: 50px;
+
+.nav li {
+    cursor: pointer;
 }
-li{
-    margin-left: 15px;
+
+.cv-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: white;
+    border: none;
+    cursor: pointer;
 }
-a{
-    color: #4e4e4e;
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+}
+
+.hero .text {
+    max-width: 55%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #cfcfcf;
+}
+
+/* INFO */
+.info p {
+    margin: 6px 0;
+}
+
+/* ICONS */
+.icons span {
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* PHOTO */
+.photo-box {
+    position: relative;
+    width: 260px;
+}
+
+.photo-box img {
+    width: 100%;
+    
+    position: relative;
+    z-index: 2;
+}
+
+.photo-box .border {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background: #3b3f52;
+    margin-top:100%;
+    z-index: 1;
+    box-shadow: 40px 40px 0 0;kul
 }

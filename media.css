@@ -1,0 +1,26 @@
+@media (max-width:720xp) {
+
+.nav_list {
+    display: none;
+}
+.menu_icon{
+    display: block;
+}
+.header{
+    display: block;
+}
+.header_right{
+    display: none;
+}
+.header_left{
+    h1{
+        font-size: 36;
+        font-weight: 600;
+    }
+}
+.header_img img{
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+}
+}
