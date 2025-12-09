@@ -1,18 +1,18 @@
 @media (max-width:720xp) {
 
-.nav_list {
+.nav {
     display: none;
 }
-.menu_icon{
+.cv-btn{
     display: block;
 }
 .header{
     display: block;
 }
-.header_right{
+.header_info{
     display: none;
 }
-.header_left{
+.header_icons{
     h1{
         font-size: 36;
         font-weight: 600;
